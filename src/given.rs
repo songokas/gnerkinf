@@ -3,7 +3,7 @@ use std::io::Write;
 
 use crate::{WhenContext, WhenContextFuture};
 
-pub fn given<T, F>(s: impl Display, callback: F, mut w: impl Write) -> GivenContext<T>
+pub fn given<T, F>(s: impl Display, callback: F, mut w: impl Write + 'static) -> GivenContext<T>
 where
     F: FnOnce() -> T,
 {

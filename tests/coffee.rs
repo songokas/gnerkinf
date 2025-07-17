@@ -5,7 +5,7 @@
 
 use core::num::NonZero;
 
-use bdd::{create_stdout_writer, given_data, WhenContext};
+use gnerkinf::{create_stdout_writer, given_data, WhenContext};
 
 #[test]
 fn test_coffee_machine() {

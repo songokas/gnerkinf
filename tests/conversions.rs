@@ -1,7 +1,7 @@
-use bdd::create_stdout_writer;
-use bdd::givenf;
-use bdd::outline;
-use bdd::{given, given_data, WhenContext};
+use gnerkinf::create_stdout_writer;
+use gnerkinf::givenf;
+use gnerkinf::outline;
+use gnerkinf::{given, given_data, WhenContext};
 
 #[test]
 fn test_bdd_type_conversion_sync() {

@@ -4,9 +4,9 @@
 // Then one ninja dies (but not me)
 // And there is one ninja less alive
 
-use bdd::create_stdout_writer;
-use bdd::given_data;
-use bdd::given_dataf;
+use gnerkinf::create_stdout_writer;
+use gnerkinf::given_data;
+use gnerkinf::given_dataf;
 
 #[test]
 fn test_ninja() {

@@ -6,7 +6,7 @@
 //       And the account balance should be $80
 //       And the card should be returned
 
-use bdd::{create_stdout_writer, given_data};
+use gnerkinf::{create_stdout_writer, given_data};
 
 #[test]
 fn test_withdrawal() {
